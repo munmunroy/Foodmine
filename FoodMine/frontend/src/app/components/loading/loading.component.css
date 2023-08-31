@@ -1,0 +1,27 @@
+.custom-loader {
+    width:25px;
+    height:25px;
+    border-radius:50%;
+    background:conic-gradient(#0000 10%,#e72929);
+    -webkit-mask:radial-gradient(farthest-side,#0000 calc(100% - 4px),#000 0);
+    animation:s3 1s infinite linear;
+  }
+  @keyframes s3 {to{transform: rotate(1turn)}}
+  .details{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 80%;
+    width: 100%;
+  }
+  
+  .container{
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    background-color: #ffffffea;
+    z-index: 10000;
+    top: 0;
+    left: 0;
+  }
